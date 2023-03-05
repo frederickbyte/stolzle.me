@@ -1,11 +1,12 @@
 export function GitHubIcon() {
   return (
     <svg
-      width="20"
-      height="20"
+      width="24"
+      height="24"
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="mr-2"
     >
       <g clipPath="url(#clip0_9914_10)">
         <path
@@ -18,6 +19,25 @@ export function GitHubIcon() {
           <rect width="24" height="24" fill="white" />
         </clipPath>
       </defs>
+    </svg>
+  );
+}
+
+export function OpenInNewIcon() {
+  return (
+    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" className="ml-2" ><path d="M0 0h24v24H0z" fill="none" />
+      <path fill="#353535" d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z" />
+    </svg>
+  );
+}
+
+export function ReadCvIcon() {
+  return (
+    <svg className="w-6 h-6 mr-2" width="341" height="361" viewBox="0 0 341 361" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect x="81.5382" y="14.3624" width="252.889" height="279.246" rx="34.6039" transform="rotate(14 81.5382 14.3624)" fill="white" stroke="black" strokeWidth="23.0693" />
+      <rect x="101.162" y="78.6895" width="184.554" height="23.0693" rx="7" transform="rotate(14 101.162 78.6895)" fill="#353535" />
+      <rect x="88.5809" y="131" width="184.554" height="23.0693" rx="7" transform="rotate(14 88.5809 131)" fill="#353535" />
+      <rect x="75.5809" y="180" width="92.2771" height="23.0693" rx="7" transform="rotate(14 75.5809 180)" fill="#353535" />
     </svg>
   );
 }
