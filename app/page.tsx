@@ -13,7 +13,7 @@ export default function Home() {
         Developing some web projects remotely in Louisiana with a small team.</p>
       <p className='md:leading-6 lg:leading-9'>Built this (minimal) site with
         <Link href={nextJsUrl} as={nextJsUrl} className='ml-2 p-1 rounded bg-pastelYellow hover:bg-pastelYellowHover'>NextJs</Link>, a wonderful React framework.
-        The purpose of life is to <span className='p-1 rounded bg-pastelYellow'>be happy</span>. Make every day count.
+        The purpose of life is to <span className='p-1 rounded bg-pastelYellow'>be happy</span>. Take advantage of every day.
       </p>
       <div className="flex flex-wrap gap-4">
         <Link
