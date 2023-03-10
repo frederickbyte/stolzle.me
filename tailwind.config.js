@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        defaultText: '#353535',
+        defaultText: '#252525',
         pastelBlue: 'rgba(83,143,247, 0.6)',
         pastelBlueHover: 'rgba(83,143,247, 0.4)',
         pastelPurple: 'rgb(195, 177, 225, 1)',
