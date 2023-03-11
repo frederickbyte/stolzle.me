@@ -1,0 +1,29 @@
+{
+  "cacheItemsMap": {
+    "big-tech.mdx": {
+      "document": {
+        "title": "In Defense of Big Tech",
+        "publishedOn": "2021-01-10",
+        "updatedOn": "2023-03-07",
+        "summary": "We should praise, not condemn, tech companies.",
+        "body": {
+          "raw": "\nAmericans hate successful businesses. We verbally assault technology companies more than any other group.\nAmazon, Apple, Google, Microsoft, Facebook, and Twitter are the primary victims of public anger and acrimony.\nVenomous resentment toward them is not due to any specific action they’ve taken, but due to their **size and success**.\n\nIt is no coincidence that the most hated corporations are also the largest and most financially successful.\n[Recent studies](https://www.pewresearch.org/fact-tank/2020/10/27/how-americans-see-u-s-tech-companies-as-government-scrutiny-increases/) by the Pew Research Center highlight just how hostile we are. According to data from 2020:\n\n- **72%** of adults say social media companies have too much power and influence in politics\n- **Half** of Americans (47%) say government should regulate major tech corporations _more_ than it does now\n- **64%** of Americans say social media have a _mostly negative_ effect on the way things are going in the country\n",
+          "html": "<p>Americans hate successful businesses. We verbally assault technology companies more than any other group.\nAmazon, Apple, Google, Microsoft, Facebook, and Twitter are the primary victims of public anger and acrimony.\nVenomous resentment toward them is not due to any specific action they’ve taken, but due to their <strong>size and success</strong>.</p>\n<p>It is no coincidence that the most hated corporations are also the largest and most financially successful.\n<a href=\"https://www.pewresearch.org/fact-tank/2020/10/27/how-americans-see-u-s-tech-companies-as-government-scrutiny-increases/\">Recent studies</a> by the Pew Research Center highlight just how hostile we are. According to data from 2020:</p>\n<ul>\n<li><strong>72%</strong> of adults say social media companies have too much power and influence in politics</li>\n<li><strong>Half</strong> of Americans (47%) say government should regulate major tech corporations <em>more</em> than it does now</li>\n<li><strong>64%</strong> of Americans say social media have a <em>mostly negative</em> effect on the way things are going in the country</li>\n</ul>"
+        },
+        "_id": "big-tech.mdx",
+        "_raw": {
+          "sourceFilePath": "big-tech.mdx",
+          "sourceFileName": "big-tech.mdx",
+          "sourceFileDir": ".",
+          "contentType": "mdx",
+          "flattenedPath": "big-tech"
+        },
+        "type": "Post",
+        "url": "/posts/big-tech"
+      },
+      "documentHash": "1678489245219",
+      "hasWarnings": false,
+      "documentTypeName": "Post"
+    }
+  }
+}
