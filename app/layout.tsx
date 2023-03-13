@@ -20,7 +20,7 @@ export const metadata = {
     },
   },
   icons: {
-    shortcut: 'favicon.ico',
+    shortcut: '/favicon.ico',
   },
 }
 
@@ -31,7 +31,7 @@ export default function RootLayout({ children }: {
 }) {
   return (
     <html lang="en" className={'flex flex-col flex-1 h-full smooth-scroll p-0 m-0 border-0 ' + robotoMono.className}>
-      <body className='antialiased flex flex-col flex-1 text-sm font-mono text-defaultText max-w-3xl mx-4 mt-8 md:mt-20 md:text-md lg:mt-32 lg:mx-auto lg:text-lg'>
+      <body className='antialiased flex flex-col flex-1 text-sm font-mono text-defaultText max-w-3xl mx-4 mt-8 md:mt-20 md:text-base lg:mt-32 lg:mx-auto'>
         <main className='flex flex-col flex-1'>
           {children}
         </main>

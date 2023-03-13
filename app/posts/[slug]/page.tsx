@@ -42,14 +42,14 @@ export default async function PostItem({ params }: any) {
       <h1 className="font-bold text-xl lg:text-3xl">
         <Balancer>{targetPost.title}</Balancer>
       </h1>
-      <div className='flex flex-wrap gap-6'>
-        <div className="text-sm bg-neutral-100 rounded-md px-2 py-1 tracking-tighter w-fit my-2">
+      <div className='flex flex-wrap gap-6 mt-2 mb-5'>
+        <div className="text-sm bg-neutral-100 rounded-md px-2 py-1 tracking-tighter w-fit">
           Wrriten{' '}
           <time dateTime={targetPost.publishedOn}>
             {format(parseISO(targetPost.publishedOn), 'LLLL d, yyyy')}
           </time>
         </div>
-        <div className="text-sm bg-pastelBlueHover rounded-md px-2 py-1 tracking-tighter w-fit my-2">
+        <div className="text-sm bg-pastelBlueHover rounded-md px-2 py-1 tracking-tighter w-fit">
           Updated{' '}
           <time dateTime={targetPost.updatedOn}>
             {format(parseISO(targetPost.updatedOn), 'LLLL d, yyyy')}
