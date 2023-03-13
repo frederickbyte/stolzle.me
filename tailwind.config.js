@@ -19,6 +19,14 @@ module.exports = {
       fontFamily: {
         mono: ['var(--font-robotoMono)', 'monospace'],
       },
+      typography: {
+        quoteless: {
+          css: {
+            'blockquote p:first-of-type::before': { content: 'none' },
+            'blockquote p:first-of-type::after': { content: 'none' },
+          },
+        },
+      },
     },
   },
   future: {

@@ -41,7 +41,7 @@ export function Mdx({ post }: MdxProps) {
   const Component = useMDXComponent(post.body.code);
 
   return (
-    <article className='prose prose-sm prose-stone md:prose-base mb-8'>
+    <article className='prose prose-quoteless prose-sm prose-stone md:prose-base mb-8'>
       <Component components={{ ...customComponents }} />
     </article>
   );

@@ -10,9 +10,9 @@
   @apply font-normal decoration-stone-500;
 }
 
-.prose :where(blockquote):not(:where([class~="not-prose"] *)) {
-  @apply not-italic;
-  quotes: none;
+.prose :where(blockquote):not(:where([class~="not-prose"] *)),
+.prose-base :where(p):not(:where([class~=not-prose] *)) {
+  @apply not-italic text-[0.95em];
 }
 
 .prose li::marker {
