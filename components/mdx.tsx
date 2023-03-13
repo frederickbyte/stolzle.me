@@ -21,7 +21,7 @@ const InfoCalloutWithLabel = (props: any) => {
       <div className="bg-stone-700 px-2 text-white w-fit p-1 rounded relative left-5 font-bold top-4  ">
         {props.title}
       </div>
-      <div className={'text-[0.95em] border-2 border-stone-700 text-stone-800 p-3 rounded bg-blue-200'}>
+      <div className={'text-[0.95em] border-2 border-stone-700 text-stone-800 p-3 rounded bg-blue-100'}>
         {props.children}
       </div>
     </div>
