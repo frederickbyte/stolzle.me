@@ -14,3 +14,7 @@
   @apply not-italic;
   quotes: none;
 }
+
+.prose li::marker {
+  @apply text-stone-800;
+}
